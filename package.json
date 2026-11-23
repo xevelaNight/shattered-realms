@@ -1,5 +1,8 @@
 {
-  "name":"shattered-realms-web","version":"0.2.0","description":"Online co-op gothic fantasy RPG prototype",
-  "main":"server.js","scripts":{"start":"node server.js"},
+  "name":"shattered-realms",
+  "version":"1.0.0",
+  "description":"Shattered Realms co-op fantasy RPG",
+  "main":"server.js",
+  "scripts":{"start":"node server.js"},
   "dependencies":{"express":"^4.21.2","socket.io":"^4.8.1"}
 }

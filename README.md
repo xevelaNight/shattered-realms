@@ -1,11 +1,11 @@
-# Shattered Realms (web prototype)
+# Shattered Realms — Web Prototype v1
+
+An early browser RPG build featuring a campaign menu, character creation, a seeded tile-map, simple exploration, quest/NPC interaction, D20 rolls, turn-based combat, inventory/chronicle UI, and room-code chat/player presence via Socket.IO.
 
 ## Run locally
-1. Install Node.js LTS from https://nodejs.org
-2. Extract this project folder.
-3. Open a terminal inside this folder.
-4. Run `npm install`
-5. Run `npm start`
-6. Visit http://localhost:3000
+- Install Node.js 20+
+- `npm install`
+- `npm start`
+- Open http://localhost:3000
 
-Create a room (leave room-code blank) and share the code with other players. For local testing on a LAN, players can visit the host computer's local IP on port 3000. Public internet play requires deploying to a host that supports Node.js and WebSockets, such as Render or Railway. Set the service start command to `npm start`; use the generated HTTPS URL. No AI API or database is included yet; NPC AI, persistence, richer character customization and combat are future modules.
+This is an evolving prototype. Custom illustrated portraits, full world persistence, proper shared campaign state, NPC AI, comprehensive combat rules, and rich art assets are not yet implemented.
